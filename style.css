@@ -1,0 +1,135 @@
+*{
+  margin: 0%;
+  
+
+}
+#one_h1{
+  font-family: fantasy;
+  color: floralwhite;
+  background-color: black;
+  font-size: larger;
+  text-align: center;
+}
+.one_span{
+  font-family: 'Comic Neue', cursive;;
+  font-size: medium;
+  background-color: aqua;
+  text-decoration-line: overline;
+  text-decoration: dotted;
+  /* display: inline; */
+
+}
+.one_p{
+  font-size: 15px;
+  color: firebrick;
+  text-align: center;
+  text-decoration: underline;
+  text-overflow: ellipsis;
+}
+.onediv{
+  background-color: cadetblue;
+  font-family: 'Comic Neue', cursive;
+  font-size: larger;
+  border: 10px solid lawngreen;
+  border-radius: 30px;
+  margin: 2px 10px 0px 10px;
+  padding: 25px;
+}
+#one1{
+  font-size: 25px;
+  color: brown;
+}
+.one_li{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 2px;
+  text-decoration: solid;
+  font-size: 39px;
+}
+#h4_top{
+  background-color: aqua;
+  color: whitesmoke;
+  text-align: center;
+  font-size: larger;
+  font-family:monospace ;
+}
+#two_li{
+  background-color: aliceblue;
+  color: coral;
+  border: 5px solid sandybrown;
+  border-radius: 10px;
+  border-bottom: none;
+  box-shadow: 10px 10px 20px red;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: double;
+  
+}
+.two{
+  color: chartreuse;
+}
+.twodiv{
+  background-color: aquamarine;
+  font-family: 'Comic Neue', cursive;
+  font-size: larger;
+  border: 5px solid grey;
+  border-radius: 10px;
+  border-bottom: none;
+  margin: 0px 0px;
+  
+  
+}
+
+.coverh2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: chocolate;
+  font-size: 40px;
+  margin-top: 30px;
+  /* border-bottom: 7px solid forestgreen; */
+  background-image: url("/img/FqYT-15agAAIxO5.jfif");
+  height: 300px;
+  background-size: cover;
+  
+}
+.pio{
+  font-size: 60px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: grabbing;
+}
+.box{
+  padding: 10px;
+  background-color: teal;
+  width: 60px;
+  margin: 15px;
+}
+.box2{
+  background-color: cadetblue;
+}
+.box3{
+  background-color: chocolate;
+}
+.time{
+  margin: 10px;
+  border: 4px solid gold;
+  display: block;
+  font-size: larger;
+  border-radius: 10px;
+  background-color: aqua;
+  text-shadow: 10px 15px 5px saddlebrown;
+  text-align: center;
+  color: teal;
+  width: 100px;
+
+}
+#Pro{
+  text-align: center;
+  background-color: teal;
+  width: 159px;
+  font-size: 20px;
+  display: inline-block;
+}
