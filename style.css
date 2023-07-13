@@ -77,8 +77,23 @@
   border-radius: 10px;
   border-bottom: none;
   margin: 0px 0px;
-  
-  
+}
+
+/* form section start  */
+.main-form:focus{
+  background-color: lightpink;
+  border: 2px solid lightgoldenrodyellow;
+  /* padding-left: 20px; */
+}
+.main-form{
+  margin: 10px;
+  align-items: baseline;
+  text-align: center;
+  color: cadetblue;
+  /* background-color: blue; */
+  padding: 10px 20px;
+  border-radius: 0px 40px 40px 40px ;
+  border: 1px solid gold;
 }
 
 .coverh2{
