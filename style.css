@@ -106,7 +106,9 @@
   background-image: url("/img/FqYT-15agAAIxO5.jfif");
   height: 300px;
   background-size: cover;
-  
+}
+.coverh2 a:visited{
+  color: brown;
 }
 .pio{
   font-size: 60px;
@@ -172,4 +174,11 @@
 .second-nav li a:hover{
   background-color: lightyellow;
   color: chocolate;
+}
+/* list item start  */
+.list-item li:last-child{
+  color: firebrick;
+}
+.list-item li:first-child{
+  background-color: dimgray;
 }
