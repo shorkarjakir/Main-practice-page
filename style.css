@@ -182,3 +182,12 @@
 .list-item li:first-child{
   background-color: dimgray;
 }
+.list-item li:nth-child(2n){
+  color: aqua;
+}
+/* .list-item li:nth-child(2n+1){
+  color: aqua;
+} */
+/* .list-item li:nth-child(3n+1){
+  color: aqua;
+} */
