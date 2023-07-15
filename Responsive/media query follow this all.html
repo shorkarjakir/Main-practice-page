@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Follow all the rules under the list</title>
+  <style>
+    body {
+      border: 2px solid red;
+      margin: 0 auto;
+      max-width: 1120px;
+    }
+
+    header li {
+      color: darkcyan;
+      font-size: 1.5em;
+    }
+
+    .focus {
+      color: tomato;
+    }
+
+    .focus:hover {
+      background-color: black;
+    }
+
+    .image-contaienr {
+      display: flex;
+    }
+
+    .image-contaienr div {
+      width: 50%;
+    }
+
+    .image-contaienr img {
+      width: 100%;
+    }
+
+
+
+    @media screen and (max-width: 576px) {
+      .image-contaienr {
+        flex-direction: column;
+
+      }
+
+      .image-contaienr div {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <ol>
+      <li>View port meta tag</li>
+      <li>Relative unit</li>
+      <li>body <span class="focus">max width</span> and <span class="focus">horizontal center align</span></li>
+      <li>Image fluid</li>
+      <li><span class="focus">Two colum: flex</span> and media query <span class="focus">flex direction: colum</span>
+      </li>
+      <li>Multi colum: <span class="focus">Grid Layout</span></li>
+      <li>Menu Responsive (JS needed)</li>
+    </ol>
+  </header>
+  <main>
+    <div class="image-contaienr">
+      <div>
+        <img src="../img/main img/nature-1.png" alt="">
+      </div>
+      <div>
+        <img src="../img/main img/nature-2.jpg" alt="">
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
