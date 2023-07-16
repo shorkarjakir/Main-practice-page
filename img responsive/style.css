@@ -21,4 +21,21 @@ img{
 h1{
   font-family: fantasy;
   background-color: lightblue;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .row{
+    flex-direction: column;
+    height: auto;
+  }
+  .box-collage{
+    grid-template-columns: 1fr;
+  }
+}
+/* Medium Devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .row{
+    flex-direction: column;
+    height: auto;
+  }
 }
