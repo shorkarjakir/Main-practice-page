@@ -30,7 +30,7 @@
 
     .bat {
       height: 700px;
-      transition: transform 1s;
+      transition: transform 0.1s ease-in;
     }
 
     .ball {
@@ -41,9 +41,14 @@
       position: relative;
       left: 550px;
       bottom: 470px;
+      transition: transform 1s ease-out 0.1s;
     }
 
-    .bat:hover {
+    .ball:hover {
+      transform: translate(500px, 200px);
+    }
+
+    .field .bat:hover {
       transform: rotate(-60deg);
       transform-origin: top right;
     }
