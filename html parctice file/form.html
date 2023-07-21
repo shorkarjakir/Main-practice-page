@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form for a simple submit</title>
+  <style>
+    label {
+      display: block;
+      margin: 10px;
+    }
+  </style>
+  <link rel="stylesheet" href="../nav.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/html parctice file.html/form.html">Form</a></li>
+        <li><a href="/html parctice file.html/table.html">Table</a></li>
+        <li><a href="/index.html">Home</a>
+          <ul class="dropdown">
+            <li><a href="/html parctice file.html/form.html">Form</a></li>
+            <li><a href="/html parctice file.html/table.html">Table</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="">blank</a></li>
+          </ul>
+        </li>
+        <li><a href="">blank</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <main>
+    <section>
+      <h3>Please fill up this form</h3>
+      <form action="">
+        <label for="name">First Name:
+          <input type="text" placeholder="your first name" id="name">
+        </label>
+        <label for="lastname">Your Last Name:
+          <input type="text" placeholder="Last Name" id="lastname">
+        </label>
+        <label for="email">Input your Email:
+          <input type="text" placeholder="email" id="email">
+        </label>
+        <label for="number">Input your Email:
+          <input type="number" id="number" placeholder="Input your number">
+        </label>
+        <!-- use legend tag for a line. -->
+        <fieldset>
+          <legend>Pick one skill:</legend>
+          <label for="web">
+            <input type="radio" name="skill" id="web">Web dev
+          </label>
+          <label for="graphics">
+            <input type="radio" name="skill" id="graphics">Graphics design
+          </label>
+          <label for="digital">
+            <input type="radio" name="skill" id="digital">Digital Marketing
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Type of your web dev</legend>
+          <label for="full">
+            <input type="checkbox" name="type" id="full">Full stack web dev.
+          </label>
+          <label for="front">
+            <input type="checkbox" name="type" id="front">Front end
+          </label>
+          <label for="back">
+            <input type="checkbox" name="type" id="back">backend dev.
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Send specila message</legend>
+          <textarea name="special" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input title="Plese clcik here for submit" type="submit" value="submit">
+
+      </form>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
