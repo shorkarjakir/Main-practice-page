@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transition</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      border: 2px solid tomato;
+      background-color: peachpuff;
+      margin-left: 50px;
+      /* property name | duration | easing function | delay */
+      /* transition: width 2s, background-color: 3s ease-in 2s; */
+      transition: transform 1.2s;
+    }
+
+    .box:hover {
+      transform: rotate(30deg) scale(0.8) translate(50px);
+      /* width: 150px;
+      background-color: aquamarine; */
+    }
+
+    .field {
+      border: 2px solid rebeccapurple;
+
+    }
+
+    .bat {
+      height: 700px;
+      transition: transform 1s;
+    }
+
+    .ball {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: cadetblue;
+      position: relative;
+      left: 550px;
+      bottom: 470px;
+    }
+
+    .bat:hover {
+      transform: rotate(-60deg);
+      transform-origin: top right;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li>Transform:Change the shape. css style property.</li>
+    <li>Translate: It'a value of transform style rule. use it to move either x or y axis.</li>
+    <li>Transition: Time manage</li>
+  </ul>
+  <div class="box">box 1</div>
+  <div class="box">box 2</div>
+  <div class="box">box 3</div>
+
+  <section>
+    <div class="field">
+      <img src="/img/pngegg.png" alt="aa" class="bat">
+      <div class="ball">
+
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
